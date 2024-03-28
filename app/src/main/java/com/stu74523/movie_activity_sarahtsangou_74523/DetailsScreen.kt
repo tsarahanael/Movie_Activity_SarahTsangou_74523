@@ -65,6 +65,9 @@ import com.stu74523.movie_activity_sarahtsangou_74523.ui.theme.Movie_Activity_Sa
 import androidx.activity.viewModels
 import androidx.compose.foundation.interaction.InteractionSource
 import androidx.compose.foundation.interaction.MutableInteractionSource
+import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonColors
+import androidx.compose.material3.ButtonDefaults
 import androidx.lifecycle.viewmodel.compose.viewModel
 
 
@@ -500,7 +503,7 @@ fun DetailsTopAppBar(
             for (reservation in reservations) {
                 reserved = reserved || movie.movieId == reservation.movie.movieId
             }
-            IconButton(
+            Button(
                 onClick = {
                     try {
                         movie.seats_remaining = movie.seats_remaining - seats_selected
@@ -516,14 +519,15 @@ fun DetailsTopAppBar(
                         navControler.navigate("error/${e.message}")
                     }
                 },
-                colors = IconButtonDefaults.iconButtonColors(contentColor = Color.Black),
+                colors = ButtonDefaults.buttonColors(contentColor = Color.Black),
                 enabled = seats_selected > 0 && !reserved
             ) {
-                Icon(
-                    imageVector = Icons.Rounded.ArrowForward,
-                    contentDescription = "Add",
-                    modifier = Modifier
-                        .fillMaxSize(),
+                Text(
+                    text = "Confirm Selection",
+                    color = Color.Black,
+                    fontSize = 30.sp,
+                    fontFamily = FontFamily.Monospace,
+                    fontWeight = FontWeight.Black
                 )
             }
         }
