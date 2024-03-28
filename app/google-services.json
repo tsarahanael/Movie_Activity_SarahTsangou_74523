@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "707916534468",
+    "project_id": "mobieappclass74523",
+    "storage_bucket": "mobieappclass74523.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707916534468:android:79331605303095f4622f91",
+        "android_client_info": {
+          "package_name": "com.stu74523.movie_activity_sarahtsangou_74523"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCadSkpJK6c1zzzt4M_4iLfnymecQZpNSM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
