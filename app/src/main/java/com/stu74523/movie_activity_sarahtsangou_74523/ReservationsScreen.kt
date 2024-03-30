@@ -1,5 +1,6 @@
 package com.stu74523.movie_activity_sarahtsangou_74523
 
+import androidx.activity.viewModels
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
@@ -46,6 +47,8 @@ import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
 import com.stu74523.movie_activity_sarahtsangou_74523.ui.theme.Movie_Activity_SarahTsangou_74523Theme
+import androidx.activity.viewModels
+import androidx.lifecycle.viewmodel.compose.viewModel
 
 
 val Reservations: Route =
