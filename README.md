@@ -1,5 +1,5 @@
 # Sarah Tsangou id:74523  
-  
+ScreenCast Link: https://drive.google.com/file/d/19dE2oUOydOlN8HVs3BR7c2-YLmPBmA8R/view?usp=sharing
   
 ## Self-assessed requirements:  
 - [x] Create a Movie class with the structure specified in movie.json
